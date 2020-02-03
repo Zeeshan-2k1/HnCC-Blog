@@ -1,0 +1,48 @@
+---
+---
+@import "main";
+
+.nav-link i{
+	font-size: 2.5em;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i|Rubik:500&display=swap');
+html{
+	font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+
+body{
+	color: black;
+}
+
+.posts-list{
+	padding-left: 7%;
+	padding-right: 5%;
+	width: 88%;
+}
+
+.posts-list a{
+	color: #22186e;
+	font-family: 'Montserrat';
+}
+
+.posts-list p{
+	font-family: 'Montserrat';
+}
+
+.post-entry {
+	font-family: 'Montserrat'!important ;
+	font-size: .8em;
+}
+
+h2, h3, h4{
+	font-family: 'Rubik';
+	font-size: .7em;
+}
+
+.blog-post{
+	color: black;
+	font-family: 'Montserrat';
+}
