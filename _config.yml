@@ -72,8 +72,9 @@ author:
 social-network-links:
   rss: true
   email: "hnccbits@gmail.com"
-  facebook: hnccbits
   github: hnccbits
+  facebook: hnccbits
+  instagram: hnccbits
 # twitter: false
 #  reddit: yourname
   linkedin: hnccbits
@@ -96,7 +97,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "hnccbits.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "blog.hnccbits.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -254,6 +255,3 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189

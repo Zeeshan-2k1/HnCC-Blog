@@ -24,7 +24,8 @@
           {%- endfor -%}
         </ul>
       <p class="copyright text-muted">
-      {{ site.author.name }}
+        <i class="fa fa-copyright"></i>
+      <a href="https://hnccbits.com" target="_blank">{{ site.author.name }}</a>
       &nbsp;&bull;&nbsp;
       {{ site.time | date: '%Y' }}
 
@@ -32,6 +33,13 @@
       &nbsp;&bull;&nbsp;
       <a href="{{ '' | absolute_url }}">{{ site.url-pretty }}</a>
       {% endif %}
+
+
+      &nbsp;&bull;&nbsp;
+      <a href="https://hnccbits.com/team.html" target="_blank">Team</a>
+
+      &nbsp;&bull;&nbsp;
+      <a href="https://www.linkedin.com/in/suraj-sloth/" target="_blank">Developer</a>
 
       {% if site.matomo %}
         {% if site.matomo.opt-out %}
