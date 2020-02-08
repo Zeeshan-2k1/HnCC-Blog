@@ -73,6 +73,7 @@ h2, h3, h4{
 	border:none;
 	border-bottom: .2em solid blue;
 	margin-top: 1em;
+	margin-bottom: .5em;
 }
 
 .box:hover{
