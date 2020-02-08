@@ -28,7 +28,7 @@ var blog = new Idea();
 We thought of introducing our internal working, management and coordination of our project experiences, tutorials, organizing experiences through a medium.
 We got inspired by developer clubs of other colleges. Sourav Sir, Raj Sir & Neeraj Sir suggested and agreed upon working on this idea.
 
-In our Developers' Meet (***Yes, that's what we call our Club Meetings***) on December(the **Web Development Team**) we discussed upon design (with the **Design team**.) and the tech stacks we will be using.
+In our Developers' Meet (***Yes, that's what we call our Club Meetings***) on December we (the **Web Development Team**) discussed upon design (with the **Design team**.) and the tech stacks we will be using.
 
 # Development Starts
 
@@ -43,7 +43,7 @@ We tried to explore the jekyll framework due to its vast amount of available the
 
 Our design team provided us layouts and graphics to give it a ecstatic look.
 
-A major hurdle faced was using CI/CD over GitLab due to package versions in remote system and local pushed code.
+A major hurdle faced was using CI/CD over GitLab due to different package versions in remote system and local pushed code.
 
 ![Meme](https://qph.fs.quoracdn.net/main-qimg-e6254d8b9a4a91ea16070fa278f8ee5a){: .center-block : }
 
@@ -53,4 +53,6 @@ A major hurdle faced was using CI/CD over GitLab due to package versions in remo
 hncc.add(blog);
 ```
 Finally it is deployed over GitLab pages. It gives me immense pleasure and excitement for this blog. 
+
+Further We have added Google's feedburner newsletter subscription.
 Hope we release great content for this community.

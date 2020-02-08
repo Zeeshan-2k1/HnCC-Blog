@@ -62,3 +62,37 @@ h2, h3, h4{
 	padding-right: 5%;
 	width: 88%;
 }
+
+.newsletter{
+	height: 
+}
+
+.box{
+	margin-right: 1em;
+	background:none;
+	border:none;
+	border-bottom: .2em solid blue;
+	margin-top: 1em;
+}
+
+.box:hover{
+	border-bottom: .3em solid blue;
+	transition: .3s;
+}
+
+.sbbtn{
+	border-radius: 2em;
+	padding-left: 1.2em;
+	padding-right: 1.2em;
+	padding-top: .4em;
+	padding-bottom: .4em;
+
+	background:none;
+	border:.1em solid blue;
+	font-family: 'Rubik';
+}
+
+.sbbtn:hover{
+	background-color: orange;
+	transition: .3s;
+}

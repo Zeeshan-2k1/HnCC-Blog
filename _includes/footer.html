@@ -2,6 +2,17 @@
   <div class="container beautiful-jekyll-footer">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+
+
+        <form class="newsletter" style="border:0px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=HnccBlog', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><h2 style="font-family:'Rubik'; font-size: 1.2em;">Subscribe to our newsletter</h2><input class="box" type="text" style="width:15em;" name="email" placeholder="Enter your email here" />
+          <input type="hidden" value="HnccBlog" name="uri"/><input type="hidden" name="loc" value="en_US"/>
+
+          <input class="sbbtn" type="submit" value="Subscribe"></form>
+
+
+          <br>
+
         <ul class="list-inline text-center footer-links">
           {%- for link in site.social-network-links -%}
             {%- assign curkey = link[0] -%}
